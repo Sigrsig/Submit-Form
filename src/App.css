@@ -1,0 +1,59 @@
+html {
+	background-color: #2F004F;
+	color: #FFFFFF;
+	
+}
+
+#submitter {
+	padding-top: 5em;
+}
+
+.first-form {
+	max-width: 600px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	
+	background-color: #A4508B;
+	padding: 5em;
+	border-radius: 10px;
+}
+
+input {
+	background-color: #5F0A87;
+	padding: 0.5em;
+	margin: 1em;
+	border: none;
+	color: #EABFCB;
+	border-radius: 10px;
+}
+
+input:focus {
+	border: none;
+	color: #EABFCB;
+}
+
+input::placeholder{
+  color: #C191A1;
+}
+
+button {
+	background-color: #C191A1;
+	border: none;
+	color: #5F0A87;
+	padding: 0.5em;
+	width: 100px;
+	margin: auto;
+	margin-top: 2em;
+	border-radius: 10px;
+	
+}
+
+span {
+	padding-left: 1em;
+	color: #EABFCB;
+}
+
+.success-message {
+	padding-bottom: 1em;
+}
